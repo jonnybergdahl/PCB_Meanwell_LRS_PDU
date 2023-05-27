@@ -222,6 +222,21 @@ DIN A4, landscape with location and doc. field</description>
 <wire x1="-8.5" y1="1.65" x2="-6.9" y2="1.65" width="0.127" layer="51"/>
 <wire x1="-6.9" y1="1.65" x2="6.9" y2="1.65" width="0.127" layer="51"/>
 <wire x1="6.9" y1="1.65" x2="8.5" y2="1.65" width="0.127" layer="51"/>
+<wire x1="7" y1="9.5" x2="7" y2="2" width="0.127" layer="21"/>
+<wire x1="7" y1="2" x2="9" y2="2" width="0.127" layer="21"/>
+<wire x1="9" y1="2" x2="9" y2="-3" width="0.127" layer="21"/>
+<wire x1="9" y1="-3" x2="4" y2="-8" width="0.127" layer="21" curve="-90"/>
+<wire x1="4" y1="-8" x2="-4" y2="-8" width="0.127" layer="21"/>
+<wire x1="-4" y1="-8" x2="-9" y2="-3" width="0.127" layer="21" curve="-90"/>
+<wire x1="-9" y1="-3" x2="-9" y2="2" width="0.127" layer="21"/>
+<wire x1="-9" y1="2" x2="-7" y2="2" width="0.127" layer="21"/>
+<wire x1="-7" y1="2" x2="-7" y2="9.5" width="0.127" layer="21"/>
+<wire x1="-7" y1="9.5" x2="7" y2="9.5" width="0.127" layer="21"/>
+<wire x1="-7" y1="2" x2="7" y2="2" width="0.127" layer="21"/>
+<rectangle x1="-9" y1="-8" x2="9" y2="9.5" layer="39"/>
+<text x="-10.7" y="2" size="1.27" layer="25" rot="R270">&gt;NAME</text>
+<text x="9.5" y="2" size="1.27" layer="27" rot="R270">&gt;VALUE</text>
+<text x="0" y="0" size="1.27" layer="48" align="center">&gt;NAME</text>
 </package>
 <package name="TERMINAL-5.08-2P">
 <pad name="P$1" x="-2.54" y="0" drill="2"/>
